@@ -14,15 +14,15 @@ export default function Footer() {
             </span>
           </div>
           <p className="text-xs text-[#a8a29e] font-light max-w-sm">
-            Haute floristry atelier. Crafting poetic botanical statements for discerning events and residences.
+            Ателье высокой флористики. Создаем поэтические цветочные высказывания для статусных событий и пространств.
           </p>
         </div>
 
         <div className="text-center md:text-right space-y-1 text-xs text-[#a8a29e] font-light">
-          <div>Paris • Amsterdam • Quito • New York</div>
-          <div>Concierge: atelier@aura-flora.boutique</div>
+          <div>Москва • Санкт-Петербург • Париж • Кито</div>
+          <div>Консьерж-сервис: concierge@aura-flora.ru</div>
           <div className="text-[10px] text-[#78716c] pt-2">
-            © 2026 Aura Flora Atelier Botanique. All rights reserved.
+            © 2026 Aura Flora Atelier Botanique. Все права защищены.
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingBag, Sparkles, PhoneCall, Compass } from 'lucide-react';
+import { ShoppingBag, Sparkles } from 'lucide-react';
 import { playChime } from '../utils/audio';
 
 export default function Navbar({ cartCount, onOpenCart, onOpenAtelier }) {
@@ -20,7 +20,7 @@ export default function Navbar({ cartCount, onOpenCart, onOpenAtelier }) {
               Aura Flora
             </span>
             <span className="text-[9px] tracking-[0.25em] text-[#8c7b6c] uppercase -mt-1">
-              Atelier Botanique
+              АТЕЛЬЕ ВЫСОКОЙ ФЛОРИСТИКИ
             </span>
           </div>
         </a>
@@ -32,7 +32,7 @@ export default function Navbar({ cartCount, onOpenCart, onOpenAtelier }) {
             onClick={() => playChime()}
             className="hover:text-[#c5a059] transition-colors"
           >
-            Curated Blooms
+            Коллекция букетов
           </a>
           <button
             onClick={() => {
@@ -42,18 +42,18 @@ export default function Navbar({ cartCount, onOpenCart, onOpenAtelier }) {
             className="hover:text-[#c5a059] transition-colors flex items-center space-x-1 cursor-pointer"
           >
             <Sparkles className="w-3.5 h-3.5 text-[#c5a059]" />
-            <span>Custom Atelier</span>
+            <span>Конструктор букета</span>
           </button>
           <a
             href="#philosophy"
             onClick={() => playChime()}
             className="hover:text-[#c5a059] transition-colors"
           >
-            Artistry & Farms
+            Философия и плантации
           </a>
         </nav>
 
-        {/* Cart & Concierge Actions */}
+        {/* Cart & Actions */}
         <div className="flex items-center space-x-4">
           <button
             onClick={() => {
@@ -61,7 +61,7 @@ export default function Navbar({ cartCount, onOpenCart, onOpenAtelier }) {
               onOpenCart();
             }}
             className="relative p-2.5 rounded-full border border-[#c5a059]/30 hover:border-[#c5a059] text-[#1c1917] transition-all cursor-pointer bg-white/60"
-            title="View Bag"
+            title="Корзина"
           >
             <ShoppingBag className="w-4 h-4 text-[#1c1917]" />
             {cartCount > 0 && (
@@ -78,7 +78,7 @@ export default function Navbar({ cartCount, onOpenCart, onOpenAtelier }) {
             }}
             className="hidden sm:inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-[#1c1917] text-[#faf8f5] hover:bg-[#c5a059] transition-colors duration-300 text-xs tracking-[0.15em] uppercase font-medium cursor-pointer"
           >
-            <span>Order Bespoke</span>
+            <span>Собрать букет</span>
           </button>
         </div>
       </div>

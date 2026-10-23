@@ -1,21 +1,21 @@
 import React from 'react';
-import { Sparkles, Sun, Droplets, Heart } from 'lucide-react';
+import { Sun, Droplets, Heart } from 'lucide-react';
 
 export default function Philosophy() {
   const pillars = [
     {
-      title: 'High-Altitude Ecuadorian Sourcing',
-      desc: 'Our roses are nurtured at 2,800 meters above sea level where intense equatorial sunlight produces oversized blooms and intense pigment depth.',
+      title: 'Высокогорья Эквадора',
+      desc: 'Наши розы выращиваются на высоте 2800 метров под прямым экваториальным солнцем, благодаря чему бутоны достигают исключительного размера и стойкости.',
       icon: Sun,
     },
     {
-      title: 'Biodynamic Dutch Cultivation',
-      desc: 'Our seasonal peonies, ranunculus, and delphinium come from multi-generational family growers adhering to pesticide-free biodynamic standards.',
+      title: 'Биодинамические фермы Голландии',
+      desc: 'Пионы, ранункулюсы и дельфиниумы поставляются из семейных питомников без агрессивных химикатов и пестицидов.',
       icon: Droplets,
     },
     {
-      title: 'Zero Single-Use Plastics',
-      desc: 'All arrangements are encased in recycled French craft stock, organic cotton ribbons, and biodegradable water stems.',
+      title: 'Экологичная упаковка без пластика',
+      desc: 'Букеты оборачиваются в переработанную бумагу французского производства, натуральный шелк и транспортируются в гидро-геле на растительной основе.',
       icon: Heart,
     },
   ];
@@ -25,13 +25,13 @@ export default function Philosophy() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-5 space-y-4">
           <span className="text-[11px] tracking-[0.25em] text-[#a16207] uppercase font-medium">
-            // OUR ETHOS & PROVENANCE
+            // ЭТОС И ПРОИСХОЖДЕНИЕ
           </span>
           <h2 className="font-serif text-4xl sm:text-5xl text-[#1c1917] tracking-tight">
-            Artistry Rooted in Living Nature
+            Искусство, рождённое живой природой
           </h2>
           <p className="text-sm text-[#78716c] font-light leading-relaxed">
-            At Aura Flora, we view flowers not as commercial commodities, but as ephemeral botanical sculptures. We honor the grower, the soil, and the fleeting beauty of each petal.
+            В Aura Flora мы относимся к цветам не как к обычному товару, а как к мимолётным скульптурам природы. Мы ценим труд садовника, чистоту почвы и поэзию каждого раскрывающегося лепестка.
           </p>
         </div>
 
